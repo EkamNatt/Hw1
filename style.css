@@ -3,17 +3,17 @@ body {
 }
 
 a {
-    color: blue; /* default color */
+    color: green; /* default color */
     text-decoration: none;
 }
 
 a:hover {
-    color: red; /* color on hover */
+    color: purple; /* color on hover */
 }
 
 .image-container {
     position: relative;
-    width: 50%; /* adjust according to your preference */
+    width: 20%; /* adjust according to your preference */
 }
 
 .image-container img {
