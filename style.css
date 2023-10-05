@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: blue; /* default color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: red; /* color on hover */
+}
+
+.image-container {
+    position: relative;
+    width: 50%; /* adjust according to your preference */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-on-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    padding: 10px;
+}
